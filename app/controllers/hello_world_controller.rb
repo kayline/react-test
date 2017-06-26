@@ -1,5 +1,5 @@
 class HelloWorldController < ApplicationController
-  layout "hello_world"
+  layout "react_view"
 
   def index
     @hello_world_props = { name: "Stranger" }
